@@ -8,17 +8,94 @@
 }
 
 :root {
-    --main-bg: #1096d0;
+    --main-bg: #239fd4;
 }
 
 header {
+    padding: 0.5rem;
     background-color: var(--main-bg);
     color: whitesmoke;
-    text-align: center;
+    text-align: left;
+    font-family: "Dia", Arial, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: -webkit-linear-gradient(var(--main-bg), #434a5c);
+    text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
 .headerTxt {
     display: inline-block;
     padding: 0.3rem;
     font-weight: bold;
+}
+
+#burger {
+    text-align: center;
+}
+
+.fa-bars {
+    display: block;
+    height: 2rem;
+}
+
+nav {
+    /*display: none;*/
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background: #222;
+    transform: translateY(-60rem);
+    padding-top: 7rem;
+    transition: transform 550ms ease-in-out;
+    right: 0;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0px 1px 2px #51c2f3, 0px 2px 4px var(--main-bg),
+        0px 4px 8px #51c2f3, 0px 8px 16px var(--main-bg);
+
+}
+
+.menu-active {
+    transform: translateY(0);
+    width: 9rem;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+li {
+    border-radius: 5px;
+    transition: all ease 0.2s;
+    margin-bottom: 0.3rem;
+    width: 6rem;
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 0.4rem;
+    line-height: 43px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: left;
+    font-family: "Dia", Arial, serif;
+    background: -webkit-linear-gradient(var(--main-bg), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    color: var(--main-bg);
 }

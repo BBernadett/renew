@@ -1,4 +1,8 @@
 'use strict'
+
+const burger = document.getElementById('burger');
+
+//icons
 require.config({
     paths: {
         'fontawesome': 'vendor/fontawesome/fontawesome.min',
@@ -13,10 +17,14 @@ require.config({
     }
 })
 
+
 require(['fontawesome'], function (fontawesome) {
 
     const phNumber = document.getElementById('phNumber');
     const mail = document.getElementById('mail');
+    console.log(burger);
+
+
     var iconPhone = fontawesome.icon(
         fontawesome.findIconDefinition({ iconName: 'phone' }),
         {
@@ -29,7 +37,13 @@ require(['fontawesome'], function (fontawesome) {
             classes: ['fa-envelope']
         }
     )
+    var iconMenu = fontawesome.icon(fontawesome.findIconDefinition({ iconName: 'bars' }),
+        {
+            classes: ['fa-solid', 'fa-bars']
+        }
+    )
 
     phNumber.appendChild(iconPhone.node[0]);
-    mail.appendChild(iconMail.node[0])
+    mail.appendChild(iconMail.node[0]);
+    burger.appendChild(iconMenu.node[0]);
 })
