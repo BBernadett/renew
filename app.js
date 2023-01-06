@@ -129,50 +129,6 @@ function SectionAdvertising() {
                         "h\xEDvj"
                     ),
                     " bizalommal!"
-                ),
-                React.createElement(
-                    "h4",
-                    { className: "secondPage" },
-                    "- Szobafest\xE9s ",
-                    React.createElement("br", null),
-                    "- k\u0151m\u0171ves munk\xE1k ",
-                    React.createElement("br", null),
-                    "- kisebb villanyszerel\xE9s ",
-                    React.createElement("br", null),
-                    "- v\xEDzszerel\xE9si munk\xE1k ",
-                    React.createElement("br", null),
-                    "- kisebb burkol\xE1sok"
-                ),
-                React.createElement(
-                    "h4",
-                    { className: "thirdPage" },
-                    "Ingyenes ",
-                    React.createElement(
-                        "span",
-                        null,
-                        "kisz\xE1ll\xE1s"
-                    ),
-                    ", ",
-                    React.createElement("br", null),
-                    "Ingyenes ",
-                    React.createElement(
-                        "span",
-                        null,
-                        "\xE1rkalkul\xE1ci\xF3"
-                    ),
-                    ", ",
-                    React.createElement("br", null),
-                    "Ingyenes ",
-                    React.createElement(
-                        "span",
-                        null,
-                        "tan\xE1csad\xE1s"
-                    ),
-                    ", ",
-                    React.createElement("br", null),
-                    "amennyiben vel\xFCnk ",
-                    React.createElement("br", null),
-                    "k\xE9pzeled el a fel\xFAj\xEDt\xE1st!"
                 )
             ),
             React.createElement(

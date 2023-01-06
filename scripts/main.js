@@ -60,14 +60,22 @@ const secondPage = document.querySelector('.secondPage');
 const thirdPage = document.querySelector('.thirdPage');
 
 firstPage.addEventListener("animationend", () => {
-    firstPage.style.visibility = 'hidden';
-    secondPage.classList.remove('secondPage');
-    secondPage.classList.add('secondAnimated');
+    function reset_animation() {
+        firstPage.style.animation = 'none';
+        firstPage.offsetHeight; /* trigger reflow */
+        firstPage.style.animation = null;
+    }
+    reset_animation();
+    firstPage.innerHTML = '- Szobafestés, <br/> - kőműves munkák <br /> - kisebb villanyszerelés <br />- vízszerelési munkák <br />- kisebb burkolások'
+    firstPage.style.animation = 'fadeIn 8s forwards';
+    firstPage.addEventListener("animationend", () => {
+        function reset_animation() {
+            firstPage.style.animation = 'none';
+            firstPage.offsetHeight; /* trigger reflow */
+            firstPage.style.animation = null;
+        }
+        reset_animation();
+        firstPage.innerHTML = 'Ingyenes <span>kiszállás</span>, <br />Ingyenes <span>árkalkuláció</span>, <br /> Ingyenes <span>tanácsadás</span>, <br /> amennyiben velünk <br /> képzeled el a felújítást!'
+        firstPage.style.animation = 'fadeIn 8s forwards';
+    });
 });
-
-secondPage.addEventListener("animationend", () => {
-    secondPage.style.visibility = 'hidden';
-    thirdPage.classList.remove('thirdPage');
-    thirdPage.classList.add('thirdAnimated');
-})
-

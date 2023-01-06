@@ -206,30 +206,6 @@ span {
     overflow: hidden;
 }
 
-.secondPage {
-    display: none;
-}
-
-@keyframes fade {
-    from {
-        left: 150%;
-    }
-
-    to {
-        left: 0;
-    }
-}
-
-.secondAnimated,
-.thirdAnimated {
-    position: absolute;
-    animation: fade 8s forwards;
-}
-
-.thirdPage {
-    display: none;
-}
-
 .intro {
     background-color: #337193;
     padding: 1rem;

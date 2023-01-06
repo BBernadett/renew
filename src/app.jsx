@@ -49,20 +49,6 @@ function SectionAdvertising() {
                 Úgy vagy vele, hogy így <span>Te</span> is "megoldottad" volna? <br />
                 Akkor <span>hívj</span> bizalommal!
                 </h4>
-                <h4 className="secondPage">
-                    - Szobafestés <br />
-                    - kőműves munkák <br />
-                    - kisebb villanyszerelés <br />
-                    - vízszerelési munkák <br />
-                    - kisebb burkolások
-                </h4>
-                <h4 className="thirdPage">
-                    Ingyenes <span>kiszállás</span>, <br />
-                    Ingyenes <span>árkalkuláció</span>, <br />
-                    Ingyenes <span>tanácsadás</span>, <br />
-                    amennyiben velünk <br />
-                    képzeled el a felújítást!
-                </h4>
             </div>
             
             <div className="controllerBox">
