@@ -115,7 +115,7 @@ hr {
     left: 0;
     bottom: 0;
     right: 0;
-    background: url(/public/img/advert.jpg);
+    background: url(./public/img/advert.jpg);
     opacity: .4;
     content: "";
     z-index: -1;
