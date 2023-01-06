@@ -223,7 +223,6 @@ span {
 .secondAnimated,
 .thirdAnimated {
     position: absolute;
-    right: -100%;
     animation: fade 8s forwards;
 }
 
