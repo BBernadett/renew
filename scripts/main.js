@@ -92,6 +92,7 @@ for (let item of listItems) {
 
 const windowWidth = window.outerWidth;
 
+
 const pic_1 = document.getElementById('img_1');
 const pic_2 = document.getElementById('img_2');
 const pic_3 = document.getElementById('img_3');
@@ -107,9 +108,71 @@ const pic_12 = document.getElementById('img_12');
 const pic_13 = document.getElementById('img_13');
 const pic_14 = document.getElementById('img_14');
 
-function picturesLoad() {
-    pic_1.style.display = 'block';
-    pic_1.classList.add('zoomPic');
-};
+let lastScrollTop = 0;
+window.addEventListener('scroll', function (e) {
 
-document.getElementById('promoText').addEventListener("touchmove", picturesLoad);
+    const st = window.pageYOffset || document.documentElement.scrollTop;
+    console.log(st);
+    if (st > lastScrollTop) {
+        pic_1.style.display = 'block';
+        pic_1.classList.add('zoomPic');
+        if (st > 1200) {
+            pic_2.style.display = 'block';
+            pic_2.classList.add('zoomPic');
+        }
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+}, false);
+
+
+/*window.addEventListener('scroll', function (e) {
+
+    const st = window.pageYOffset || document.documentElement.scrollTop;
+    console.log(st);
+    if (st > 770) {
+        pic_1.style.display = 'block';
+        pic_1.classList.add('zoomPic');
+    }
+    if (st > 1220) {
+        pic_2.style.display = 'block';
+        pic_2.classList.add('zoomPic');
+    } if (st > 1600) {
+        pic_3.style.display = 'block';
+        pic_3.classList.add('zoomPic');
+    } if (st > 2100) {
+        pic_4.style.display = 'block';
+        pic_4.classList.add('zoomPic');
+    } if (st > 2500) {
+        pic_5.style.display = 'block';
+        pic_5.classList.add('zoomPic');
+    } if (st > 2910) {
+        pic_6.style.display = 'block';
+        pic_6.classList.add('zoomPic');
+    } if (st > 3365) {
+        pic_7.style.display = 'block';
+        pic_7.classList.add('zoomPic');
+    } if (st > 3800) {
+        pic_8.style.display = 'block';
+        pic_8.classList.add('zoomPic');
+    } if (st > 4200) {
+        pic_9.style.display = 'block';
+        pic_9.classList.add('zoomPic');
+    } if (st > 4620) {
+        pic_10.style.display = 'block';
+        pic_10.classList.add('zoomPic');
+    } if (st > 5055) {
+        pic_11.style.display = 'block';
+        pic_11.classList.add('zoomPic');
+    } if (st > 5495) {
+        pic_12.style.display = 'block';
+        pic_12.classList.add('zoomPic');
+    } if (st > 5950) {
+        pic_13.style.display = 'block';
+        pic_13.classList.add('zoomPic');
+    } if (st > 6375) {
+        pic_14.style.display = 'block';
+        pic_14.classList.add('zoomPic');
+    }
+
+}
+, false);*/
