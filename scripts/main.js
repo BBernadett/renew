@@ -116,51 +116,51 @@ window.addEventListener('scroll', function (e) {
 
     const st = window.pageYOffset || document.documentElement.scrollTop;
     console.log(st);
-    if (windowWidth < 725) {
-        if (st > 810) {
-            pic_1.style.display = 'block';
-            pic_1.classList.add('zoomPic');
-        }
-        if (st > 1220) {
-            pic_2.style.display = 'block';
-            pic_2.classList.add('zoomPic');
-        } if (st > 1630) {
-            pic_3.style.display = 'block';
-            pic_3.classList.add('zoomPic');
-        } if (st > 2100) {
-            pic_4.style.display = 'block';
-            pic_4.classList.add('zoomPic');
-        } if (st > 2500) {
-            pic_5.style.display = 'block';
-            pic_5.classList.add('zoomPic');
-        } if (st > 2910) {
-            pic_6.style.display = 'block';
-            pic_6.classList.add('zoomPic');
-        } if (st > 3365) {
-            pic_7.style.display = 'block';
-            pic_7.classList.add('zoomPic');
-        } if (st > 3800) {
-            pic_8.style.display = 'block';
-            pic_8.classList.add('zoomPic');
-        } if (st > 4200) {
-            pic_9.style.display = 'block';
-            pic_9.classList.add('zoomPic');
-        } if (st > 4620) {
-            pic_10.style.display = 'block';
-            pic_10.classList.add('zoomPic');
-        } if (st > 5055) {
-            pic_11.style.display = 'block';
-            pic_11.classList.add('zoomPic');
-        } if (st > 5495) {
-            pic_12.style.display = 'block';
-            pic_12.classList.add('zoomPic');
-        } if (st > 5950) {
-            pic_13.style.display = 'block';
-            pic_13.classList.add('zoomPic');
-        } if (st > 6375) {
-            pic_14.style.display = 'block';
-            pic_14.classList.add('zoomPic');
-        }
-        lastScrollTop = st <= 0 ? 0 : st;
+    /*if (windowWidth < 725) {*/
+    if (st > 810) {
+        pic_1.style.display = 'block';
+        pic_1.classList.add('zoomPic');
     }
-}, false);
+    if (st > 1220) {
+        pic_2.style.display = 'block';
+        pic_2.classList.add('zoomPic');
+    } if (st > 1600) {
+        pic_3.style.display = 'block';
+        pic_3.classList.add('zoomPic');
+    } if (st > 2100) {
+        pic_4.style.display = 'block';
+        pic_4.classList.add('zoomPic');
+    } if (st > 2500) {
+        pic_5.style.display = 'block';
+        pic_5.classList.add('zoomPic');
+    } if (st > 2910) {
+        pic_6.style.display = 'block';
+        pic_6.classList.add('zoomPic');
+    } if (st > 3365) {
+        pic_7.style.display = 'block';
+        pic_7.classList.add('zoomPic');
+    } if (st > 3800) {
+        pic_8.style.display = 'block';
+        pic_8.classList.add('zoomPic');
+    } if (st > 4200) {
+        pic_9.style.display = 'block';
+        pic_9.classList.add('zoomPic');
+    } if (st > 4620) {
+        pic_10.style.display = 'block';
+        pic_10.classList.add('zoomPic');
+    } if (st > 5055) {
+        pic_11.style.display = 'block';
+        pic_11.classList.add('zoomPic');
+    } if (st > 5495) {
+        pic_12.style.display = 'block';
+        pic_12.classList.add('zoomPic');
+    } if (st > 5950) {
+        pic_13.style.display = 'block';
+        pic_13.classList.add('zoomPic');
+    } if (st > 6375) {
+        pic_14.style.display = 'block';
+        pic_14.classList.add('zoomPic');
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+}
+/*}*/, false);
