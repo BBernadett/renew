@@ -116,7 +116,7 @@ window.addEventListener('scroll', function (e) {
     if (st > lastScrollTop) {
         pic_1.style.display = 'block';
         pic_1.classList.add('zoomPic');
-        if (st > 1185) {
+        if (st > 1100) {
             pic_2.style.display = 'block';
             pic_2.classList.add('zoomPic');
         }
