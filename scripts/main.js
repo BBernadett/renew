@@ -117,7 +117,7 @@ window.addEventListener('scroll', function (e) {
     const st = window.pageYOffset || document.documentElement.scrollTop;
     console.log(st);
     /*if (windowWidth < 725) {*/
-    if (st > 810) {
+    if (st > 770) {
         pic_1.style.display = 'block';
         pic_1.classList.add('zoomPic');
     }
