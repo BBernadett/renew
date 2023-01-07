@@ -8,7 +8,9 @@ function App() {
         React.createElement(SectionHeader, null),
         React.createElement(SectionNav, null),
         React.createElement(SectionAdvertising, null),
-        React.createElement(SectionIntro, null)
+        React.createElement(SectionIntro, null),
+        React.createElement(Promo, null),
+        React.createElement(Gallery, null)
     );
 }
 
@@ -56,7 +58,7 @@ function SectionNav() {
                 null,
                 React.createElement(
                     "a",
-                    { href: "#", className: "navItems" },
+                    { href: "#advertising", className: "navItems" },
                     "Kezd\u0151lap"
                 ),
                 " ",
@@ -67,7 +69,7 @@ function SectionNav() {
                 null,
                 React.createElement(
                     "a",
-                    { href: "#", className: "navItems" },
+                    { href: "#promo", className: "navItems" },
                     "R\xF3lunk"
                 ),
                 " ",
@@ -78,7 +80,7 @@ function SectionNav() {
                 null,
                 React.createElement(
                     "a",
-                    { href: "#", className: "navItems" },
+                    { href: "#gallery", className: "navItems" },
                     "Gal\xE9ria"
                 ),
                 " ",
@@ -102,7 +104,7 @@ function SectionNav() {
 function SectionAdvertising() {
     return React.createElement(
         "section",
-        { className: "advertising" },
+        { className: "advertising", id: "advertising" },
         React.createElement(
             "div",
             { className: "advertContent" },
@@ -183,6 +185,69 @@ function SectionIntro() {
                 ),
                 " "
             )
+        )
+    );
+}
+
+function Promo() {
+    return React.createElement(
+        "section",
+        { className: "promo", id: "promo" },
+        React.createElement(
+            "h4",
+            { className: "promoTitle" },
+            "Mi\xE9rt minket v\xE1lasszon?"
+        ),
+        React.createElement(
+            "div",
+            null,
+            React.createElement("img", { src: "./public/img/promoPic.png", alt: "promo", className: "promoPic" })
+        ),
+        React.createElement(
+            "div",
+            null,
+            React.createElement(
+                "p",
+                null,
+                "- Felm\xE9r\xE9s sor\xE1n amennyiben k\xE9ri, szakmai tan\xE1csot adunk, alternat\xEDv\xE1kat k\xEDn\xE1lunk ",
+                React.createElement("br", null),
+                "- 100%-ban megb\xEDzhat\xF3 szakemberek vagyunk ",
+                React.createElement("br", null),
+                "- Min\u0151s\xE9gi munk\xE1t v\xE9gz\xFCnk megfizethet\u0151 \xE1ron ",
+                React.createElement("br", null),
+                "- A munka elv\xE9gz\xE9s\xE9t k\xF6vet\u0151en kitakar\xEDtunk magunk ut\xE1n, rendet rakunk ",
+                React.createElement("br", null),
+                "- Csendesen dolgozunk, \xFCgyel\xFCnk a h\xE1z nyugalm\xE1ra ",
+                React.createElement("br", null),
+                "- Pontosan, a megbesz\xE9lt id\u0151pontban \xE9rkez\xFCnk ",
+                React.createElement("br", null),
+                "- munk\xE1nkat 20 \xE9ves szakmai tapasztalattal v\xE9gezz\xFCk"
+            )
+        )
+    );
+}
+
+function Gallery() {
+    return React.createElement(
+        "section",
+        { className: "gallery", id: "gallery" },
+        React.createElement(
+            "div",
+            { className: "galleryBox" },
+            React.createElement("img", { src: "./public/img/img_1.jpg", alt: "img_1", id: "img_1", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_2.jpg", alt: "img_2", id: "img_2", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_3.jpg", alt: "img_3", id: "img_3", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_1.jpg", alt: "img_4", id: "img_4", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_5.jpg", alt: "img_5", id: "img_5", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_6.jpg", alt: "img_6", id: "img_6", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_7.jpg", alt: "img_7", id: "img_7", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_8.jpg", alt: "img_8", id: "img_8", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_9.jpg", alt: "img_9", id: "img_9", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_10.jpg", alt: "img_10", id: "img_10", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_11.jpg", alt: "img_11", id: "img_11", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_12.jpg", alt: "img_12", id: "img_12", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_13.jpg", alt: "img_13", id: "img_13", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_14.jpg", alt: "img_14", id: "img_14", className: "galleryItems" })
         )
     );
 }
