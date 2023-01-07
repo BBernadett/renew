@@ -237,7 +237,7 @@ function Gallery() {
             React.createElement("img", { src: "./public/img/img_2.jpg", alt: "img_2", id: "img_1", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_1.jpg", alt: "img_1", id: "img_2", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_3.jpg", alt: "img_3", id: "img_3", className: "galleryItems" }),
-            React.createElement("img", { src: "./public/img/img_1.jpg", alt: "img_4", id: "img_4", className: "galleryItems" }),
+            React.createElement("img", { src: "./public/img/img_4.jpg", alt: "img_4", id: "img_4", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_5.jpg", alt: "img_5", id: "img_5", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_6.jpg", alt: "img_6", id: "img_6", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_7.jpg", alt: "img_7", id: "img_7", className: "galleryItems" }),
