@@ -112,4 +112,4 @@ function picturesLoad() {
     pic_1.classList.add('zoomPic');
 };
 
-document.getElementById('promoText').addEventListener("scroll", picturesLoad);
+document.getElementById('promoText').addEventListener("touchmove", picturesLoad);
