@@ -83,7 +83,7 @@ function Promo(){
                 <img src="./public/img/promoPic.png" alt="promo" className="promoPic" />
             </div>
             <div>
-                <p>
+                <p id="promoText">
                     - Felmérés során amennyiben kéri, szakmai tanácsot adunk, alternatívákat kínálunk <br />
                     - 100%-ban megbízható szakemberek vagyunk <br />
                     - Minőségi munkát végzünk megfizethető áron <br />

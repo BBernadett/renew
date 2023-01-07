@@ -208,7 +208,7 @@ function Promo() {
             null,
             React.createElement(
                 "p",
-                null,
+                { id: "promoText" },
                 "- Felm\xE9r\xE9s sor\xE1n amennyiben k\xE9ri, szakmai tan\xE1csot adunk, alternat\xEDv\xE1kat k\xEDn\xE1lunk ",
                 React.createElement("br", null),
                 "- 100%-ban megb\xEDzhat\xF3 szakemberek vagyunk ",
