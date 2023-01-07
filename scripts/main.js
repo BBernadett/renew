@@ -161,6 +161,6 @@ window.addEventListener('scroll', function (e) {
         pic_14.style.display = 'block';
         pic_14.classList.add('zoomPic');
     }
-    lastScrollTop = st <= 0 ? 0 : st;
+
 }
 /*}*/, false);
