@@ -117,11 +117,11 @@ window.addEventListener('scroll', function (e) {
     const st = window.pageYOffset || document.documentElement.scrollTop;
     console.log(st);
     if (windowWidth < 725) {
-        if (st > 820) {
+        if (st > 810) {
             pic_1.style.display = 'block';
             pic_1.classList.add('zoomPic');
         }
-        if (st > 1250) {
+        if (st > 1220) {
             pic_2.style.display = 'block';
             pic_2.classList.add('zoomPic');
         } if (st > 1630) {
