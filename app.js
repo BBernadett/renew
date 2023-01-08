@@ -201,7 +201,7 @@ function Promo() {
         React.createElement(
             "div",
             null,
-            React.createElement("img", { src: "./public/img/promoPic.png", alt: "promo", className: "promoPic" })
+            React.createElement("img", { src: "./public/img/promoPic.jpg", alt: "promo", className: "promoPic" })
         ),
         React.createElement(
             "div",
@@ -235,7 +235,6 @@ function Gallery() {
             "div",
             { className: "galleryBox" },
             React.createElement("img", { src: "./public/img/img_2.jpeg", alt: "img_2", id: "img_1", className: "galleryItems" }),
-            React.createElement("img", { src: "./public/img/img_1.jpg", alt: "img_1", id: "img_2", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_3.jpg", alt: "img_3", id: "img_3", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_4.jpg", alt: "img_4", id: "img_4", className: "galleryItems" }),
             React.createElement("img", { src: "./public/img/img_5.jpg", alt: "img_5", id: "img_5", className: "galleryItems" }),

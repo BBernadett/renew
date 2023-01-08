@@ -80,7 +80,7 @@ function Promo(){
     return <section className="promo" id="promo">
         <h4 className="promoTitle">Miért minket válasszon?</h4>
             <div>
-                <img src="./public/img/promoPic.png" alt="promo" className="promoPic" />
+                <img src="./public/img/promoPic.jpg" alt="promo" className="promoPic" />
             </div>
             <div>
                 <p id="promoText">
@@ -100,7 +100,6 @@ function Gallery(){
     return <section className="gallery" id="gallery">
  <div className="galleryBox">
  <img src="./public/img/img_2.jpeg" alt="img_2" id="img_1" className="galleryItems"/>
-    <img src="./public/img/img_1.jpg" alt="img_1" id="img_2" className="galleryItems"/>
     <img src="./public/img/img_3.jpg" alt="img_3" id="img_3" className="galleryItems"/>
     <img src="./public/img/img_4.jpg" alt="img_4" id="img_4" className="galleryItems"/>
     <img src="./public/img/img_5.jpg" alt="img_5" id="img_5" className="galleryItems"/>
