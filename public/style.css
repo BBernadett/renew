@@ -9,21 +9,21 @@
 
 :root {
     --main-bg: #239fd4;
+    --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", system-ui, sans-serif;
+
 }
 
 header {
     padding: 0.5rem;
-    background-color: var(--main-bg);
-    color: whitesmoke;
+    background-color: rgb(12, 30, 77);
     text-align: left;
     font-family: "Dia", Arial, serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: -webkit-linear-gradient(var(--main-bg), #434a5c);
     text-shadow:
         1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 18px 6px rgb(16 16 16 / 40%), 1px 22px 10px rgb(16 16 16 / 20%), 1px 30px 60px rgb(16 16 16 / 40%);
-
 }
 
 .headerTxt {
@@ -37,6 +37,7 @@ header {
 #burger {
     text-align: center;
     z-index: 3;
+    color: white;
 }
 
 .fa-bars {
@@ -209,7 +210,7 @@ span {
 }
 
 .intro {
-    background-color: #337193;
+    background: linear-gradient(var(--main-bg), white);
     padding: 1rem;
     font-size: 1rem;
 }
@@ -228,12 +229,17 @@ span {
     opacity: 0;
     margin-top: 2rem;
     font-size: large;
-    font-weight: bold;
+
     line-height: 1.7rem;
     color: rgb(242, 246, 250);
-    font-family: "Dia", Arial, serif;
+    font-family: var(--font-sans);
     animation: showIn 6s forwards 2s;
 }
+
+#promoText {
+    font-family: var(--font-s);
+}
+
 
 .pics {
     width: 42%;
@@ -269,9 +275,10 @@ span {
     width: 60%;
     display: block;
     margin: 1rem auto;
-    box-shadow: 0px 1px 2px white, 0px 2px 4px grey, 0px 2px 4px gray;
+    box-shadow: 0px 1px 2px white, 0px 2px 4px #0c1e4d, 0px 2px 4px #0c1e4d;
     border-radius: 0.15rem;
 }
+
 
 .promoTitle {
     padding: 0;

@@ -66,20 +66,13 @@ function SectionAdvertising() {
 function SectionIntro() {
     return <section className="intro">
 <div>   
-
+<h4 className="promoTitle">Miért minket válasszon?</h4>
 <img src="./public/img/introPic.png" alt="" className="pics" />
-<p className="introText">Vállalkozásunk mögött kiváló szakemberek állnak, 20 éves szakmai tapasztalattal a hátunk mögött,
+<p className="introText">Vállalkozásunk mögött kiváló <span style={{color: '#0c1e4d'}}> szakemberek</span> állnak, <span style={{color: '#0c1e4d'}}>20 éves </span> szakmai <span style={{color: '#0c1e4d'}}>tapasztalattal </span>  a hátunk mögött,
 munkáinkra garanciát vállalva,
-kedvező áron dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span style={{color: '#0c1e4d'}}> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#51c2f3', textDecoration: 'none'}} >+36 30 200 4017</a> </p>
-
+<span style={{color: '#0c1e4d'}}>kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span style={{color: '#0c1e4d', fontWeight: 'bold'}}> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#0c1e4d', fontWeight: 'bold'}} >+3630 200 4017</a> </p>
 </div>
-    </section>
-}
-
-function Promo(){
-    return <section className="promo" id="promo">
-        <h4 className="promoTitle">Miért minket válasszon?</h4>
-            <div>
+<div>
                 <img src="./public/img/promoPic.jpg" alt="promo" className="promoPic" />
             </div>
             <div>
@@ -93,6 +86,13 @@ function Promo(){
                     - munkánkat 20 éves szakmai tapasztalattal végezzük  
                 </p>
             </div>
+    </section>
+}
+
+function Promo(){
+    return <section className="promo" id="promo">
+        
+            
             </section>
 }
 

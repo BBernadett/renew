@@ -163,40 +163,57 @@ function SectionIntro() {
         React.createElement(
             "div",
             null,
+            React.createElement(
+                "h4",
+                { className: "promoTitle" },
+                "Mi\xE9rt minket v\xE1lasszon?"
+            ),
             React.createElement("img", { src: "./public/img/introPic.png", alt: "", className: "pics" }),
             React.createElement(
                 "p",
                 { className: "introText" },
-                "V\xE1llalkoz\xE1sunk m\xF6g\xF6tt kiv\xE1l\xF3 szakemberek \xE1llnak, 20 \xE9ves szakmai tapasztalattal a h\xE1tunk m\xF6g\xF6tt, munk\xE1inkra garanci\xE1t v\xE1llalva, kedvez\u0151 \xE1ron dolgozunk.",
+                "V\xE1llalkoz\xE1sunk m\xF6g\xF6tt kiv\xE1l\xF3 ",
+                React.createElement(
+                    "span",
+                    { style: { color: '#0c1e4d' } },
+                    " szakemberek"
+                ),
+                " \xE1llnak, ",
+                React.createElement(
+                    "span",
+                    { style: { color: '#0c1e4d' } },
+                    "20 \xE9ves "
+                ),
+                " szakmai ",
+                React.createElement(
+                    "span",
+                    { style: { color: '#0c1e4d' } },
+                    "tapasztalattal "
+                ),
+                "  a h\xE1tunk m\xF6g\xF6tt, munk\xE1inkra garanci\xE1t v\xE1llalva,",
+                React.createElement(
+                    "span",
+                    { style: { color: '#0c1e4d' } },
+                    "kedvez\u0151 \xE1ron"
+                ),
+                "  dolgozunk.",
                 React.createElement("br", null),
                 " Keressen meg minket szobafest\xE9s, tap\xE9t\xE1z\xE1s, burkol\xE1s, vagy kisebb k\u0151m\u0171ves, villanyszerel\xE9si munk\xE1val kapcsolatban. ",
                 React.createElement("br", null),
                 " ",
                 React.createElement(
                     "span",
-                    { style: { color: '#0c1e4d' } },
+                    { style: { color: '#0c1e4d', fontWeight: 'bold' } },
                     " V\xE1rjuk h\xEDv\xE1s\xE1t:"
                 ),
                 "  ",
                 React.createElement(
                     "a",
-                    { href: "tel:+36 30 200 4017", style: { color: '#51c2f3', textDecoration: 'none' } },
-                    "+36 30 200 4017"
+                    { href: "tel:+36 30 200 4017", style: { color: '#0c1e4d', fontWeight: 'bold' } },
+                    "+3630 200 4017"
                 ),
                 " "
             )
-        )
-    );
-}
-
-function Promo() {
-    return React.createElement(
-        "section",
-        { className: "promo", id: "promo" },
-        React.createElement(
-            "h4",
-            { className: "promoTitle" },
-            "Mi\xE9rt minket v\xE1lasszon?"
         ),
         React.createElement(
             "div",
@@ -225,6 +242,10 @@ function Promo() {
             )
         )
     );
+}
+
+function Promo() {
+    return React.createElement("section", { className: "promo", id: "promo" });
 }
 
 function Gallery() {
