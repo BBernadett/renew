@@ -247,10 +247,15 @@ span {
 
 .introParags {
     display: inline-flex;
+    margin-top: 0.5rem;
 }
 
 .ParagContent {
     margin-left: 0.4rem;
+}
+
+.brushIcon {
+    margin-top: 0.8rem;
 }
 
 .pics {

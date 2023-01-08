@@ -75,48 +75,48 @@ munkáinkra garanciát vállalva,
 <div>
                 <img src="./public/img/promoPic.jpg" alt="promo" className="promoPic" />
             </div>
-            <div id="promoText">
+            <div id="promoText" className="brushIcon">
                 <div className="introParags">
-                    <p id="intro_1"></p>
-                    <p className="ParagContent">Felmérés során amennyiben kéri, szakmai tanácsot adunk, alternatívákat kínálunk <br /> 
-                    </p>
+                    <p id="intro_1" className="brushIcon"></p>
+                    <p className="ParagContent">Felmérés során amennyiben kéri, szakmai tanácsot adunk, alternatívákat kínálunk  
+                    </p> 
                 </div>
+                
                 <div className="introParags">
-                    <p id="intro_2"></p>
+                    <p id="intro_2" className="brushIcon"></p>
                     <p className="ParagContent">
-                    100%-ban megbízható szakemberek vagyunk <br />
+                    100%-ban megbízható szakemberek vagyunk 
                     </p>
                 </div>
                 <div className="introParags">
-                    <p id="intro_3"></p>
+                    <p id="intro_3" className="brushIcon"></p>
                     <p className="ParagContent">
-                    Minőségi munkát végzünk megfizethető áron <br />
+                    Minőségi munkát végzünk megfizethető áron 
                     </p>
                 </div>
                 <div className="introParags">
-                    <p id="intro_4"></p>
+                    <p id="intro_4" className="brushIcon"></p>
                     <p className="ParagContent">    
-                    A munka elvégzését követően kitakarítunk magunk után, rendet rakunk <br />
+                    A munka elvégzését követően kitakarítunk magunk után, rendet rakunk 
                 </p>
                 </div>
                 <div className="introParags">
-                    <p id="intro_5"></p>
+                    <p id="intro_5" className="brushIcon"></p>
                     <p className="ParagContent">
-                    Csendesen dolgozunk, ügyelünk a ház nyugalmára <br />
+                    Csendesen dolgozunk, ügyelünk a ház nyugalmára 
                     </p>
                 </div>
                 <div className="introParags">
-                    <p id="intro_6"></p>
+                    <p id="intro_6" className="brushIcon"></p>
                     <p className="ParagContent">
-                    Pontosan, a megbeszélt időpontban érkezünk <br />
+                    Pontosan, a megbeszélt időpontban érkezünk 
                     </p>
                 </div>
                 <div className="introParags">
-                    <p id="intro_7"></p>    
+                    <p id="intro_7" className="brushIcon"></p>    
                     <p className="ParagContent">
                     Munkánkat 20 éves szakmai tapasztalattal végezzük
                     </p>
-                    
                 </div>
 
             </div>

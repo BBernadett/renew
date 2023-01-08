@@ -222,77 +222,71 @@ function SectionIntro() {
         ),
         React.createElement(
             "div",
-            { id: "promoText" },
+            { id: "promoText", className: "brushIcon" },
             React.createElement(
                 "div",
                 { className: "introParags" },
-                React.createElement("p", { id: "intro_1" }),
+                React.createElement("p", { id: "intro_1", className: "brushIcon" }),
                 React.createElement(
                     "p",
                     { className: "ParagContent" },
-                    "Felm\xE9r\xE9s sor\xE1n amennyiben k\xE9ri, szakmai tan\xE1csot adunk, alternat\xEDv\xE1kat k\xEDn\xE1lunk ",
-                    React.createElement("br", null)
+                    "Felm\xE9r\xE9s sor\xE1n amennyiben k\xE9ri, szakmai tan\xE1csot adunk, alternat\xEDv\xE1kat k\xEDn\xE1lunk"
                 )
             ),
             React.createElement(
                 "div",
                 { className: "introParags" },
-                React.createElement("p", { id: "intro_2" }),
+                React.createElement("p", { id: "intro_2", className: "brushIcon" }),
                 React.createElement(
                     "p",
                     { className: "ParagContent" },
-                    "100%-ban megb\xEDzhat\xF3 szakemberek vagyunk ",
-                    React.createElement("br", null)
+                    "100%-ban megb\xEDzhat\xF3 szakemberek vagyunk"
                 )
             ),
             React.createElement(
                 "div",
                 { className: "introParags" },
-                React.createElement("p", { id: "intro_3" }),
+                React.createElement("p", { id: "intro_3", className: "brushIcon" }),
                 React.createElement(
                     "p",
                     { className: "ParagContent" },
-                    "Min\u0151s\xE9gi munk\xE1t v\xE9gz\xFCnk megfizethet\u0151 \xE1ron ",
-                    React.createElement("br", null)
+                    "Min\u0151s\xE9gi munk\xE1t v\xE9gz\xFCnk megfizethet\u0151 \xE1ron"
                 )
             ),
             React.createElement(
                 "div",
                 { className: "introParags" },
-                React.createElement("p", { id: "intro_4" }),
+                React.createElement("p", { id: "intro_4", className: "brushIcon" }),
                 React.createElement(
                     "p",
                     { className: "ParagContent" },
-                    "A munka elv\xE9gz\xE9s\xE9t k\xF6vet\u0151en kitakar\xEDtunk magunk ut\xE1n, rendet rakunk ",
-                    React.createElement("br", null)
+                    "A munka elv\xE9gz\xE9s\xE9t k\xF6vet\u0151en kitakar\xEDtunk magunk ut\xE1n, rendet rakunk"
                 )
             ),
             React.createElement(
                 "div",
                 { className: "introParags" },
-                React.createElement("p", { id: "intro_5" }),
+                React.createElement("p", { id: "intro_5", className: "brushIcon" }),
                 React.createElement(
                     "p",
                     { className: "ParagContent" },
-                    "Csendesen dolgozunk, \xFCgyel\xFCnk a h\xE1z nyugalm\xE1ra ",
-                    React.createElement("br", null)
+                    "Csendesen dolgozunk, \xFCgyel\xFCnk a h\xE1z nyugalm\xE1ra"
                 )
             ),
             React.createElement(
                 "div",
                 { className: "introParags" },
-                React.createElement("p", { id: "intro_6" }),
+                React.createElement("p", { id: "intro_6", className: "brushIcon" }),
                 React.createElement(
                     "p",
                     { className: "ParagContent" },
-                    "Pontosan, a megbesz\xE9lt id\u0151pontban \xE9rkez\xFCnk ",
-                    React.createElement("br", null)
+                    "Pontosan, a megbesz\xE9lt id\u0151pontban \xE9rkez\xFCnk"
                 )
             ),
             React.createElement(
                 "div",
                 { className: "introParags" },
-                React.createElement("p", { id: "intro_7" }),
+                React.createElement("p", { id: "intro_7", className: "brushIcon" }),
                 React.createElement(
                     "p",
                     { className: "ParagContent" },
