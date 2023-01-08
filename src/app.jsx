@@ -99,7 +99,7 @@ function Promo(){
 function Gallery(){
     return <section className="gallery" id="gallery">
  <div className="galleryBox">
- <img src="./public/img/img_2.jpg" alt="img_2" id="img_1" className="galleryItems"/>
+ <img src="./public/img/img_2.jpeg" alt="img_2" id="img_1" className="galleryItems"/>
     <img src="./public/img/img_1.jpg" alt="img_1" id="img_2" className="galleryItems"/>
     <img src="./public/img/img_3.jpg" alt="img_3" id="img_3" className="galleryItems"/>
     <img src="./public/img/img_4.jpg" alt="img_4" id="img_4" className="galleryItems"/>
