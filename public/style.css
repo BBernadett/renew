@@ -149,14 +149,14 @@ hr {
 
 h4 {
     padding: 2rem;
-    color: rgb(242, 246, 250);
+    color: rgb(12, 30, 77);
     font-family: "Dia", Arial, serif;
     line-height: 2.7rem;
 }
 
 span {
-    color: #51c2f3;
-    text-shadow: 0px 1px 2px #2e6f8b, 0px 2px 4px var(--main-bg), 0px 4px 8px #2e6f8b, 0px 8px 16px var(--main-bg);
+    color: white;
+    text-shadow: 0px 1px 2px #2e6f8b, 0px 2px 4px rgb(12, 30, 77), 0px 4px 8px #2e6f8b, 0px 8px 16px rgb(12, 30, 77);
     font-size: 1.2rem;
 }
 
@@ -215,6 +215,11 @@ span {
     font-size: 1rem;
 }
 
+.introPull {
+    color: #0c1e4d;
+    font-size: 1.2rem;
+}
+
 @keyframes showIn {
     from {
         opacity: 0;
@@ -229,7 +234,6 @@ span {
     opacity: 0;
     margin-top: 2rem;
     font-size: large;
-
     line-height: 1.7rem;
     color: rgb(242, 246, 250);
     font-family: var(--font-sans);
@@ -237,9 +241,17 @@ span {
 }
 
 #promoText {
-    font-family: var(--font-s);
+    font-family: var(--font-sans);
+    color: #0c1e4d;
 }
 
+.introParags {
+    display: inline-flex;
+}
+
+.ParagContent {
+    margin-left: 0.4rem;
+}
 
 .pics {
     width: 42%;
@@ -283,6 +295,7 @@ span {
 .promoTitle {
     padding: 0;
     text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 18px 6px rgb(16 16 16 / 40%), 1px 22px 10px rgb(16 16 16 / 20%), 1px 30px 60px rgb(16 16 16 / 40%);
+    color: white;
 }
 
 /*gallery*/

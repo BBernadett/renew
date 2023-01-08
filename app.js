@@ -175,25 +175,25 @@ function SectionIntro() {
                 "V\xE1llalkoz\xE1sunk m\xF6g\xF6tt kiv\xE1l\xF3 ",
                 React.createElement(
                     "span",
-                    { style: { color: '#0c1e4d' } },
+                    { className: "introPull" },
                     " szakemberek"
                 ),
                 " \xE1llnak, ",
                 React.createElement(
                     "span",
-                    { style: { color: '#0c1e4d' } },
+                    { className: "introPull" },
                     "20 \xE9ves "
                 ),
                 " szakmai ",
                 React.createElement(
                     "span",
-                    { style: { color: '#0c1e4d' } },
+                    { className: "introPull" },
                     "tapasztalattal "
                 ),
                 "  a h\xE1tunk m\xF6g\xF6tt, munk\xE1inkra garanci\xE1t v\xE1llalva,",
                 React.createElement(
                     "span",
-                    { style: { color: '#0c1e4d' } },
+                    { className: "introPull" },
                     "kedvez\u0151 \xE1ron"
                 ),
                 "  dolgozunk.",
@@ -203,7 +203,7 @@ function SectionIntro() {
                 " ",
                 React.createElement(
                     "span",
-                    { style: { color: '#0c1e4d', fontWeight: 'bold' } },
+                    { className: "introPull" },
                     " V\xE1rjuk h\xEDv\xE1s\xE1t:"
                 ),
                 "  ",
@@ -222,23 +222,82 @@ function SectionIntro() {
         ),
         React.createElement(
             "div",
-            null,
+            { id: "promoText" },
             React.createElement(
-                "p",
-                { id: "promoText" },
-                "- Felm\xE9r\xE9s sor\xE1n amennyiben k\xE9ri, szakmai tan\xE1csot adunk, alternat\xEDv\xE1kat k\xEDn\xE1lunk ",
-                React.createElement("br", null),
-                "- 100%-ban megb\xEDzhat\xF3 szakemberek vagyunk ",
-                React.createElement("br", null),
-                "- Min\u0151s\xE9gi munk\xE1t v\xE9gz\xFCnk megfizethet\u0151 \xE1ron ",
-                React.createElement("br", null),
-                "- A munka elv\xE9gz\xE9s\xE9t k\xF6vet\u0151en kitakar\xEDtunk magunk ut\xE1n, rendet rakunk ",
-                React.createElement("br", null),
-                "- Csendesen dolgozunk, \xFCgyel\xFCnk a h\xE1z nyugalm\xE1ra ",
-                React.createElement("br", null),
-                "- Pontosan, a megbesz\xE9lt id\u0151pontban \xE9rkez\xFCnk ",
-                React.createElement("br", null),
-                "- munk\xE1nkat 20 \xE9ves szakmai tapasztalattal v\xE9gezz\xFCk"
+                "div",
+                { className: "introParags" },
+                React.createElement("p", { id: "intro_1" }),
+                React.createElement(
+                    "p",
+                    { className: "ParagContent" },
+                    "Felm\xE9r\xE9s sor\xE1n amennyiben k\xE9ri, szakmai tan\xE1csot adunk, alternat\xEDv\xE1kat k\xEDn\xE1lunk ",
+                    React.createElement("br", null)
+                )
+            ),
+            React.createElement(
+                "div",
+                { className: "introParags" },
+                React.createElement("p", { id: "intro_2" }),
+                React.createElement(
+                    "p",
+                    { className: "ParagContent" },
+                    "100%-ban megb\xEDzhat\xF3 szakemberek vagyunk ",
+                    React.createElement("br", null)
+                )
+            ),
+            React.createElement(
+                "div",
+                { className: "introParags" },
+                React.createElement("p", { id: "intro_3" }),
+                React.createElement(
+                    "p",
+                    { className: "ParagContent" },
+                    "Min\u0151s\xE9gi munk\xE1t v\xE9gz\xFCnk megfizethet\u0151 \xE1ron ",
+                    React.createElement("br", null)
+                )
+            ),
+            React.createElement(
+                "div",
+                { className: "introParags" },
+                React.createElement("p", { id: "intro_4" }),
+                React.createElement(
+                    "p",
+                    { className: "ParagContent" },
+                    "A munka elv\xE9gz\xE9s\xE9t k\xF6vet\u0151en kitakar\xEDtunk magunk ut\xE1n, rendet rakunk ",
+                    React.createElement("br", null)
+                )
+            ),
+            React.createElement(
+                "div",
+                { className: "introParags" },
+                React.createElement("p", { id: "intro_5" }),
+                React.createElement(
+                    "p",
+                    { className: "ParagContent" },
+                    "Csendesen dolgozunk, \xFCgyel\xFCnk a h\xE1z nyugalm\xE1ra ",
+                    React.createElement("br", null)
+                )
+            ),
+            React.createElement(
+                "div",
+                { className: "introParags" },
+                React.createElement("p", { id: "intro_6" }),
+                React.createElement(
+                    "p",
+                    { className: "ParagContent" },
+                    "Pontosan, a megbesz\xE9lt id\u0151pontban \xE9rkez\xFCnk ",
+                    React.createElement("br", null)
+                )
+            ),
+            React.createElement(
+                "div",
+                { className: "introParags" },
+                React.createElement("p", { id: "intro_7" }),
+                React.createElement(
+                    "p",
+                    { className: "ParagContent" },
+                    "Munk\xE1nkat 20 \xE9ves szakmai tapasztalattal v\xE9gezz\xFCk"
+                )
             )
         )
     );

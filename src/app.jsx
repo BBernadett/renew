@@ -68,23 +68,57 @@ function SectionIntro() {
 <div>   
 <h4 className="promoTitle">Miért minket válasszon?</h4>
 <img src="./public/img/introPic.png" alt="" className="pics" />
-<p className="introText">Vállalkozásunk mögött kiváló <span style={{color: '#0c1e4d'}}> szakemberek</span> állnak, <span style={{color: '#0c1e4d'}}>20 éves </span> szakmai <span style={{color: '#0c1e4d'}}>tapasztalattal </span>  a hátunk mögött,
+<p className="introText">Vállalkozásunk mögött kiváló <span className="introPull"> szakemberek</span> állnak, <span className="introPull">20 éves </span> szakmai <span className="introPull">tapasztalattal </span>  a hátunk mögött,
 munkáinkra garanciát vállalva,
-<span style={{color: '#0c1e4d'}}>kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span style={{color: '#0c1e4d', fontWeight: 'bold'}}> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#0c1e4d', fontWeight: 'bold'}} >+3630 200 4017</a> </p>
+<span className="introPull">kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span className="introPull"> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#0c1e4d', fontWeight: 'bold'}} >+3630 200 4017</a> </p>
 </div>
 <div>
                 <img src="./public/img/promoPic.jpg" alt="promo" className="promoPic" />
             </div>
-            <div>
-                <p id="promoText">
-                    - Felmérés során amennyiben kéri, szakmai tanácsot adunk, alternatívákat kínálunk <br />
-                    - 100%-ban megbízható szakemberek vagyunk <br />
-                    - Minőségi munkát végzünk megfizethető áron <br />
-                    - A munka elvégzését követően kitakarítunk magunk után, rendet rakunk <br />
-                    - Csendesen dolgozunk, ügyelünk a ház nyugalmára <br />
-                    - Pontosan, a megbeszélt időpontban érkezünk <br />
-                    - munkánkat 20 éves szakmai tapasztalattal végezzük  
+            <div id="promoText">
+                <div className="introParags">
+                    <p id="intro_1"></p>
+                    <p className="ParagContent">Felmérés során amennyiben kéri, szakmai tanácsot adunk, alternatívákat kínálunk <br /> 
+                    </p>
+                </div>
+                <div className="introParags">
+                    <p id="intro_2"></p>
+                    <p className="ParagContent">
+                    100%-ban megbízható szakemberek vagyunk <br />
+                    </p>
+                </div>
+                <div className="introParags">
+                    <p id="intro_3"></p>
+                    <p className="ParagContent">
+                    Minőségi munkát végzünk megfizethető áron <br />
+                    </p>
+                </div>
+                <div className="introParags">
+                    <p id="intro_4"></p>
+                    <p className="ParagContent">    
+                    A munka elvégzését követően kitakarítunk magunk után, rendet rakunk <br />
                 </p>
+                </div>
+                <div className="introParags">
+                    <p id="intro_5"></p>
+                    <p className="ParagContent">
+                    Csendesen dolgozunk, ügyelünk a ház nyugalmára <br />
+                    </p>
+                </div>
+                <div className="introParags">
+                    <p id="intro_6"></p>
+                    <p className="ParagContent">
+                    Pontosan, a megbeszélt időpontban érkezünk <br />
+                    </p>
+                </div>
+                <div className="introParags">
+                    <p id="intro_7"></p>    
+                    <p className="ParagContent">
+                    Munkánkat 20 éves szakmai tapasztalattal végezzük
+                    </p>
+                    
+                </div>
+
             </div>
     </section>
 }

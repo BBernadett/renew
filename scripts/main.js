@@ -18,11 +18,18 @@ require.config({
 })
 
 
+
 require(['fontawesome'], function (fontawesome) {
 
     const phNumber = document.getElementById('phNumber');
     const mail = document.getElementById('mail');
-
+    const intro_1 = document.getElementById('intro_1');
+    const intro_2 = document.getElementById('intro_2');
+    const intro_3 = document.getElementById('intro_3');
+    const intro_4 = document.getElementById('intro_4');
+    const intro_5 = document.getElementById('intro_5');
+    const intro_6 = document.getElementById('intro_6');
+    const intro_7 = document.getElementById('intro_7');
 
     var iconPhone = fontawesome.icon(
         fontawesome.findIconDefinition({ iconName: 'phone' }),
@@ -41,10 +48,25 @@ require(['fontawesome'], function (fontawesome) {
             classes: ['fa-solid', 'fa-bars']
         }
     )
+    var iconBrush = fontawesome.icon(fontawesome.findIconDefinition({ iconName: 'brush' }),
+        {
+            classes: ['fa-duotone', 'fa-brush']
+        }
+    )
 
-    phNumber.appendChild(iconPhone.node[0]);
+
+    phNumber.append(iconPhone.node[0]);
     mail.appendChild(iconMail.node[0]);
     burger.appendChild(iconMenu.node[0]);
+    intro_1.appendChild(iconBrush.node[0]);
+    intro_2.appendChild(iconBrush.node[0]);
+    intro_3.appendChild(iconBrush.node[0]);
+    intro_4.appendChild(iconBrush.node[0]);
+    intro_5.appendChild(iconBrush.node[0]);
+    intro_6.appendChild(iconBrush.node[0]);
+    intro_7.appendChild(iconBrush.node[0]);
+
+
 })
 
 //nav
