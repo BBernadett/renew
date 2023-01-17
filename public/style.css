@@ -22,8 +22,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-shadow:
-        1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 18px 6px rgb(16 16 16 / 40%), 1px 22px 10px rgb(16 16 16 / 20%), 1px 30px 60px rgb(16 16 16 / 40%);
+    /*text-shadow:
+        1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 18px 6px rgb(16 16 16 / 40%), 1px 22px 10px rgb(16 16 16 / 20%), 1px 30px 60px rgb(16 16 16 / 40%);*/
 }
 
 .headerTxt {
@@ -262,6 +262,10 @@ span {
     width: 42%;
     display: block;
     margin: 1rem auto;
+}
+
+.promoBox {
+    background: linear-gradient(0deg, rgb(12, 30, 77) 0%, rgb(250, 253, 254) 100%);
 }
 
 .promo {

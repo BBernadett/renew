@@ -21,6 +21,7 @@ require.config({
 
 require(['fontawesome'], function (fontawesome) {
 
+    const user = document.getElementById('user')
     const phNumber = document.getElementById('phNumber');
     const mail = document.getElementById('mail');
     const intro_1 = document.getElementById('intro_1');
@@ -31,6 +32,12 @@ require(['fontawesome'], function (fontawesome) {
     const intro_6 = document.getElementById('intro_6');
     const intro_7 = document.getElementById('intro_7');
 
+    var iconUser = fontawesome.icon(
+        fontawesome.findIconDefinition({ iconName: 'user' }),
+        {
+            classes: ['fa-regular', 'fa-user-helmet-safety']
+        }
+    )
     var iconPhone = fontawesome.icon(
         fontawesome.findIconDefinition({ iconName: 'phone' }),
         {
@@ -53,17 +60,24 @@ require(['fontawesome'], function (fontawesome) {
             classes: ['fa-duotone', 'fa-brush']
         }
     )
+    var iconBrushRoller = fontawesome.icon(fontawesome.findIconDefinition({ iconName: 'paint-roller' }),
+        {
+            classes: ['fa-solid', 'fa-paint-roller']
+        }
+    )
 
 
+
+    user.appendChild(iconUser.node[0]);
     phNumber.append(iconPhone.node[0]);
     mail.appendChild(iconMail.node[0]);
     burger.appendChild(iconMenu.node[0]);
     intro_1.appendChild(iconBrush.node[0]);
-    intro_2.appendChild(iconBrush.node[0]);
+    intro_2.appendChild(iconBrushRoller.node[0]);
     intro_3.appendChild(iconBrush.node[0]);
-    intro_4.appendChild(iconBrush.node[0]);
+    intro_4.appendChild(iconBrushRoller.node[0]);
     intro_5.appendChild(iconBrush.node[0]);
-    intro_6.appendChild(iconBrush.node[0]);
+    intro_6.appendChild(iconBrushRoller.node[0]);
     intro_7.appendChild(iconBrush.node[0]);
 
 
@@ -88,7 +102,7 @@ firstPage.addEventListener("animationend", () => {
         firstPage.style.animation = null;
     }
     reset_animation();
-    firstPage.innerHTML = '- Szobafestés, <br/> - kőműves munkák <br /> - kisebb villanyszerelés <br />- vízszerelési munkák <br />- kisebb burkolások'
+    firstPage.innerHTML = '- Szobafestés <br/> - kőműves munkák <br /> - kisebb villanyszerelés <br />- vízszerelési munkák <br />- kisebb burkolások'
     firstPage.style.animation = 'fadeIn 8s forwards';
     firstPage.addEventListener("animationend", () => {
         function reset_animation() {
@@ -97,7 +111,7 @@ firstPage.addEventListener("animationend", () => {
             firstPage.style.animation = null;
         }
         reset_animation();
-        firstPage.innerHTML = 'Ingyenes <span>kiszállás</span>, <br />Ingyenes <span>árkalkuláció</span>, <br /> Ingyenes <span>tanácsadás</span>, <br /> amennyiben velünk <br /> képzeled el a felújítást!'
+        firstPage.innerHTML = 'Ingyenes <span>kiszállás</span>, <br />Ingyenes <span>árkalkuláció</span>, <br /> Ingyenes <span>tanácsadás</span>, <br /> amennyiben velünk <br /> képzeli el a felújítást!'
         firstPage.style.animation = 'fadeIn 8s forwards';
     });
 });

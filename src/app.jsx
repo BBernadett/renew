@@ -17,6 +17,10 @@ function SectionHeader() {
     return <header >
         <div>
             <div>
+                <p id="user" className="headerTxt"></p>
+                <p className="headerTxt"> Rácz-Molnár András</p>
+            </div>
+            <div>
                 <p id="phNumber" className="headerTxt"></p>
                 <a href="tel:+36 30 200 4017" className="headerTxt">+36 30 200 4017</a>    
             </div>
@@ -47,9 +51,9 @@ function SectionAdvertising() {
     return <section className="advertising" id="advertising">
         <div className="advertContent">
             <div className="advertBox">
-                <h4 className="firstPage"> Unod már, hogy nem találasz normális szakembert? <br />
-                Úgy vagy vele, hogy így <span>Te</span> is "megoldottad" volna? <br />
-                Akkor <span>hívj</span> bizalommal!
+                <h4 className="firstPage"> Unja már, hogy nem talál normális szakembert? <br />
+                Úgy van vele, hogy így <span>Ön</span> is "megoldotta" volna? <br />
+                Akkor <span>hívjon</span> bizalommal!
                 </h4>
             </div>
             
@@ -69,8 +73,8 @@ function SectionIntro() {
 <h4 className="promoTitle">Miért minket válasszon?</h4>
 <img src="./public/img/introPic.png" alt="" className="pics" />
 <p className="introText">Vállalkozásunk mögött kiváló <span className="introPull"> szakemberek</span> állnak, <span className="introPull">20 éves </span> szakmai <span className="introPull">tapasztalattal </span>  a hátunk mögött,
-munkáinkra garanciát vállalva,
-<span className="introPull">kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span className="introPull"> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#0c1e4d', fontWeight: 'bold'}} >+3630 200 4017</a> </p>
+munkáinkra garanciát vállalva, 
+<span className="introPull"> kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, hideg-meleg burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span className="introPull"> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#0c1e4d', fontWeight: 'bold'}} >+3630 200 4017</a> </p>
 </div>
 <div>
                 <img src="./public/img/promoPic.jpg" alt="promo" className="promoPic" />
@@ -124,8 +128,16 @@ munkáinkra garanciát vállalva,
 }
 
 function Promo(){
-    return <section className="promo" id="promo">
-        
+    return <section className="promo promoBox" id="promo">
+        <div>
+            <h3>Lépjen velünk kapcsolatba!</h3>
+            <p>Ha kérdése van, vagy ajánlatot szeretne kérni.</p>
+            <h4>Rácz-Molnár András</h4>
+            <h5><a href="tel:+36 30 200 4017" className="headerTxt">Telefonszám: +36 30 200 4017</a></h5>
+            <h5> <a href="mailto:racz1980@hotmail.fr" className="headerTxt">Email: racz1980@hotmail.fr </a></h5>
+
+                   
+        </div>
             
             </section>
 }
@@ -133,19 +145,19 @@ function Promo(){
 function Gallery(){
     return <section className="gallery" id="gallery">
  <div className="galleryBox">
- <img src="./public/img/img_2.jpeg" alt="img_2" id="img_1" className="galleryItems"/>
+ <img src="./public/img/img_14.jpg" alt="img_2" id="img_1" className="galleryItems"/>
     <img src="./public/img/img_3.jpg" alt="img_3" id="img_3" className="galleryItems"/>
     <img src="./public/img/img_4.jpg" alt="img_4" id="img_4" className="galleryItems"/>
-    <img src="./public/img/img_5.jpg" alt="img_5" id="img_5" className="galleryItems"/>
-    <img src="./public/img/img_6.jpg" alt="img_6" id="img_6" className="galleryItems"/>
-    <img src="./public/img/img_7.jpg" alt="img_7" id="img_7" className="galleryItems"/>
-    <img src="./public/img/img_8.jpg" alt="img_8" id="img_8" className="galleryItems"/>
-    <img src="./public/img/img_9.jpg" alt="img_9" id="img_9" className="galleryItems"/>
-    <img src="./public/img/img_10.jpg" alt="img_10" id="img_10" className="galleryItems"/>
+    <img src="./public/img/img_10.jpg" alt="img_5" id="img_5" className="galleryItems"/>
+    <img src="./public/img/img_13.jpg" alt="img_6" id="img_6" className="galleryItems"/>
+    <img src="./public/img/img_8.jpg" alt="img_7" id="img_7" className="galleryItems"/>
+    <img src="./public/img/img_7.jpg" alt="img_8" id="img_8" className="galleryItems"/>
+    <img src="./public/img/img_6.jpg" alt="img_9" id="img_9" className="galleryItems"/>
+    <img src="./public/img/img_5.jpg" alt="img_10" id="img_10" className="galleryItems"/>
     <img src="./public/img/img_11.jpg" alt="img_11" id="img_11" className="galleryItems"/>
     <img src="./public/img/img_12.jpg" alt="img_12" id="img_12" className="galleryItems"/>
-    <img src="./public/img/img_13.jpg" alt="img_13" id="img_13" className="galleryItems"/>
-    <img src="./public/img/img_14.jpg" alt="img_14" id="img_14" className="galleryItems"/>
+    <img src="./public/img/img_9.jpg" alt="img_13" id="img_13" className="galleryItems"/>
+    <img src="./public/img/img_2.jpeg" alt="img_14" id="img_14" className="galleryItems"/>
 
  </div>
     </section>
