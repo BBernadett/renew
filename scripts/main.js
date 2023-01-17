@@ -60,11 +60,6 @@ require(['fontawesome'], function (fontawesome) {
             classes: ['fa-duotone', 'fa-brush']
         }
     )
-    var iconBrushRoller = fontawesome.icon(fontawesome.findIconDefinition({ iconName: 'paint-roller' }),
-        {
-            classes: ['fa-solid', 'fa-paint-roller']
-        }
-    )
 
 
 
@@ -73,11 +68,11 @@ require(['fontawesome'], function (fontawesome) {
     mail.appendChild(iconMail.node[0]);
     burger.appendChild(iconMenu.node[0]);
     intro_1.appendChild(iconBrush.node[0]);
-    intro_2.appendChild(iconBrushRoller.node[0]);
+    intro_2.appendChild(iconBrush.node[0]);
     intro_3.appendChild(iconBrush.node[0]);
-    intro_4.appendChild(iconBrushRoller.node[0]);
+    intro_4.appendChild(iconBrush.node[0]);
     intro_5.appendChild(iconBrush.node[0]);
-    intro_6.appendChild(iconBrushRoller.node[0]);
+    intro_6.appendChild(iconBrush.node[0]);
     intro_7.appendChild(iconBrush.node[0]);
 
 
