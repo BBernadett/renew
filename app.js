@@ -178,7 +178,45 @@ function SectionIntro() {
                 { className: "promoTitle" },
                 "Mi\xE9rt minket v\xE1lasszon?"
             ),
-            React.createElement("img", { src: "./public/img/introPic.png", alt: "", className: "pics" }),
+            React.createElement(
+                "div",
+                { className: "box" },
+                React.createElement(
+                    "span",
+                    { className: "i1" },
+                    React.createElement("img", { src: "./public/img/can_1.png", alt: "can_1", className: "buckets" })
+                ),
+                React.createElement(
+                    "span",
+                    { className: "i2" },
+                    React.createElement("img", { src: "./public/img/can_2.png", alt: "can_2", className: "buckets" })
+                ),
+                React.createElement(
+                    "span",
+                    { className: "i3" },
+                    React.createElement("img", { src: "./public/img/can_3.png", alt: "can_3", className: "buckets" })
+                ),
+                React.createElement(
+                    "span",
+                    { className: "i4" },
+                    React.createElement("img", { src: "./public/img/can_4.png", alt: "can_4", className: "buckets" })
+                ),
+                React.createElement(
+                    "span",
+                    { className: "i5" },
+                    React.createElement("img", { src: "./public/img/can_5.png", alt: "can_5", className: "buckets" })
+                ),
+                React.createElement(
+                    "span",
+                    { className: "i6" },
+                    React.createElement("img", { src: "./public/img/can_6.png", alt: "can_6", className: "buckets" })
+                ),
+                React.createElement(
+                    "span",
+                    { className: "i7" },
+                    React.createElement("img", { src: "./public/img/can_7.png", alt: "can_7", className: "buckets" })
+                )
+            ),
             React.createElement(
                 "p",
                 { className: "introText" },

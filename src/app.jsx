@@ -71,7 +71,30 @@ function SectionIntro() {
     return <section className="intro">
 <div>   
 <h4 className="promoTitle">Miért minket válasszon?</h4>
-<img src="./public/img/introPic.png" alt="" className="pics" />
+<div className="box">
+    <span className="i1">
+        <img src="./public/img/can_1.png" alt="can_1" className="buckets" />
+    </span>
+    <span className="i2">
+        <img src="./public/img/can_2.png" alt="can_2" className="buckets"/>
+    </span>
+    <span className="i3">
+        <img src="./public/img/can_3.png" alt="can_3" className="buckets" />
+    </span>
+    <span className="i4">
+        <img src="./public/img/can_4.png" alt="can_4" className="buckets"/>
+    </span>
+    <span className="i5">
+        <img src="./public/img/can_5.png" alt="can_5" className="buckets"/>
+    </span>
+    <span className="i6">
+        <img src="./public/img/can_6.png" alt="can_6" className="buckets" />
+    </span>
+    <span className="i7">
+        <img src="./public/img/can_7.png" alt="can_7" className="buckets"/>
+    </span>
+
+</div>
 <p className="introText">Vállalkozásunk mögött kiváló <span className="introPull"> szakemberek</span> állnak, <span className="introPull">20 éves </span> szakmai <span className="introPull">tapasztalattal </span>  a hátunk mögött,
 munkáinkra garanciát vállalva, 
 <span className="introPull"> kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, hideg-meleg burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span className="introPull"> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#0c1e4d', fontWeight: 'bold'}} >+3630 200 4017</a> </p>
