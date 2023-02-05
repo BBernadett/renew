@@ -58,9 +58,9 @@ function SectionAdvertising() {
             </div>
             
             <div className="controllerBox">
-                <a href="#" className="controllers showWhite">1</a>
-                <a href="#" className="controllers">2</a>
-                <a href="#" className="controllers">3</a>
+                <a href="#" className="controllers showWhite" id="firstPoint">1</a>
+                <a href="#" className="controllers" id="secondPoint">2</a>
+                <a href="#" className="controllers" id="thirdPoint">3</a>
             </div>
 
         </div> 

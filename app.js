@@ -148,17 +148,17 @@ function SectionAdvertising() {
                 { className: "controllerBox" },
                 React.createElement(
                     "a",
-                    { href: "#", className: "controllers showWhite" },
+                    { href: "#", className: "controllers showWhite", id: "firstPoint" },
                     "1"
                 ),
                 React.createElement(
                     "a",
-                    { href: "#", className: "controllers" },
+                    { href: "#", className: "controllers", id: "secondPoint" },
                     "2"
                 ),
                 React.createElement(
                     "a",
-                    { href: "#", className: "controllers" },
+                    { href: "#", className: "controllers", id: "thirdPoint" },
                     "3"
                 )
             )

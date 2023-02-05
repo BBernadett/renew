@@ -89,27 +89,41 @@ burger.addEventListener('click', function () {
 const firstPage = document.querySelector('.firstPage');
 const secondPage = document.querySelector('.secondPage');
 const thirdPage = document.querySelector('.thirdPage');
+const fisrtPoint = document.getElementById('firstPoint');
+const secondPoint = document.getElementById('secondPoint');
+const thirdPoint = document.getElementById('thirdPoint');
 
-firstPage.addEventListener("animationend", () => {
-    function reset_animation() {
-        firstPage.style.animation = 'none';
-        firstPage.offsetHeight; /* trigger reflow */
-        firstPage.style.animation = null;
+function reset_animation() {
+    firstPage.style.animation = 'none';
+    firstPage.offsetHeight;
+    firstPage.style.animation = null;
+}
+let animate = 1;
+
+firstPage.addEventListener("animationend", function () {
+    if (animate === 1) {
+        reset_animation();
+        firstPage.innerHTML = '- Szobafestés <br/> - kőműves munkák <br /> - kisebb villanyszerelés <br />- vízszerelési munkák <br />- kisebb burkolások'
+        fisrtPoint.classList.remove('showWhite');
+        secondPoint.classList.add('showWhite');
+        animate = 2;
     }
-    reset_animation();
-    firstPage.innerHTML = '- Szobafestés <br/> - kőműves munkák <br /> - kisebb villanyszerelés <br />- vízszerelési munkák <br />- kisebb burkolások'
-    firstPage.style.animation = 'fadeIn 8s forwards';
-    firstPage.addEventListener("animationend", () => {
-        function reset_animation() {
-            firstPage.style.animation = 'none';
-            firstPage.offsetHeight; /* trigger reflow */
-            firstPage.style.animation = null;
-        }
+    else if (animate == 2) {
         reset_animation();
         firstPage.innerHTML = 'Ingyenes <span>kiszállás</span>, <br />Ingyenes <span>árkalkuláció</span>, <br /> Ingyenes <span>tanácsadás</span>, <br /> amennyiben velünk <br /> képzeli el a felújítást!'
-        firstPage.style.animation = 'fadeIn 8s forwards';
-    });
+        secondPoint.classList.remove('showWhite');
+        thirdPoint.classList.add('showWhite');
+        animate = 0;
+    }
+    else {
+        reset_animation();
+        firstPage.innerHTML = 'Unja már, hogy nem talál normális szakembert? <br /> Úgy van vele, hogy így <span>Ön</span> is "megoldotta" volna? <br /> Akkor <span>hívjon</span> bizalommal!'
+        thirdPoint.classList.remove('showWhite');
+        fisrtPoint.classList.add('showWhite');
+        animate = 1;
+    }
 });
+
 
 const listItems = document.querySelectorAll('li a');
 
@@ -189,54 +203,3 @@ window.addEventListener('scroll', function (e) {
 }, false);
 
 
-/*window.addEventListener('scroll', function (e) {
-
-    const st = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(st);
-    if (st > 770) {
-        pic_1.style.display = 'block';
-        pic_1.classList.add('zoomPic');
-    }
-    if (st > 1220) {
-        pic_2.style.display = 'block';
-        pic_2.classList.add('zoomPic');
-    } if (st > 1600) {
-        pic_3.style.display = 'block';
-        pic_3.classList.add('zoomPic');
-    } if (st > 2100) {
-        pic_4.style.display = 'block';
-        pic_4.classList.add('zoomPic');
-    } if (st > 2500) {
-        pic_5.style.display = 'block';
-        pic_5.classList.add('zoomPic');
-    } if (st > 2910) {
-        pic_6.style.display = 'block';
-        pic_6.classList.add('zoomPic');
-    } if (st > 3365) {
-        pic_7.style.display = 'block';
-        pic_7.classList.add('zoomPic');
-    } if (st > 3800) {
-        pic_8.style.display = 'block';
-        pic_8.classList.add('zoomPic');
-    } if (st > 4200) {
-        pic_9.style.display = 'block';
-        pic_9.classList.add('zoomPic');
-    } if (st > 4620) {
-        pic_10.style.display = 'block';
-        pic_10.classList.add('zoomPic');
-    } if (st > 5055) {
-        pic_11.style.display = 'block';
-        pic_11.classList.add('zoomPic');
-    } if (st > 5495) {
-        pic_12.style.display = 'block';
-        pic_12.classList.add('zoomPic');
-    } if (st > 5950) {
-        pic_13.style.display = 'block';
-        pic_13.classList.add('zoomPic');
-    } if (st > 6375) {
-        pic_14.style.display = 'block';
-        pic_14.classList.add('zoomPic');
-    }
-
-}
-, false);*/
