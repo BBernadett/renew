@@ -6,6 +6,7 @@ function App() {
         "div",
         { id: "sections" },
         React.createElement(SectionHeader, null),
+        React.createElement(SectionChevron, null),
         React.createElement(SectionNav, null),
         React.createElement(SectionAdvertising, null),
         React.createElement(SectionIntro, null),
@@ -18,41 +19,49 @@ function SectionHeader() {
     return React.createElement(
         "header",
         null,
+        React.createElement("div", { id: "chevron" }),
         React.createElement(
             "div",
-            null,
+            { className: "menuLeftItems" },
+            React.createElement("p", { id: "user", className: "navItems" }),
             React.createElement(
-                "div",
-                null,
-                React.createElement("p", { id: "user", className: "headerTxt" }),
-                React.createElement(
-                    "p",
-                    { className: "headerTxt" },
-                    " R\xE1cz-Moln\xE1r Andr\xE1s"
-                )
-            ),
+                "p",
+                { className: "navItems" },
+                " R\xE1cz-Moln\xE1r Andr\xE1s"
+            )
+        ),
+        React.createElement("div", { id: "burger" })
+    );
+}
+
+function SectionChevron() {
+    return React.createElement(
+        "div",
+        { id: "navLeftBox", className: "navLeftBox" },
+        React.createElement(
+            "ul",
+            { className: "menuLeft" },
             React.createElement(
-                "div",
-                null,
-                React.createElement("p", { id: "phNumber", className: "headerTxt" }),
+                "li",
+                { className: "menuLeftItems" },
+                React.createElement("p", { id: "phNumber", className: "navItems" }),
                 React.createElement(
                     "a",
-                    { href: "tel:+36 30 200 4017", className: "headerTxt" },
+                    { href: "tel:+36 30 200 4017", className: "navItems" },
                     "+36 30 200 4017"
                 )
             ),
             React.createElement(
-                "div",
-                null,
-                React.createElement("p", { id: "mail", className: "headerTxt" }),
+                "li",
+                { className: "menuLeftItems" },
+                React.createElement("p", { id: "mail", className: "navItems" }),
                 React.createElement(
                     "a",
-                    { href: "mailto:racz1980@hotmail.fr", className: "headerTxt" },
+                    { href: "mailto:racz1980@hotmail.fr", className: "navItems" },
                     "racz1980@hotmail.fr"
                 )
             )
-        ),
-        React.createElement("div", { id: "burger" })
+        )
     );
 }
 

@@ -1,6 +1,7 @@
 'use strict'
 
 const burger = document.getElementById('burger');
+const chevron = document.getElementById('chevron');
 
 //icons
 require.config({
@@ -60,13 +61,18 @@ require(['fontawesome'], function (fontawesome) {
             classes: ['fa-duotone', 'fa-brush']
         }
     )
+    var iconChevron = fontawesome.icon(fontawesome.findIconDefinition({ iconName: 'chevron-down' }),
+        {
+            classes: ['fa-square-chevron-down', 'navItems']
+        }
+    )
 
 
-
+    burger.appendChild(iconMenu.node[0]);
+    chevron.appendChild(iconChevron.node[0]);
     user.appendChild(iconUser.node[0]);
     phNumber.append(iconPhone.node[0]);
     mail.appendChild(iconMail.node[0]);
-    burger.appendChild(iconMenu.node[0]);
     intro_1.appendChild(iconBrush.node[0]);
     intro_2.appendChild(iconBrush.node[0]);
     intro_3.appendChild(iconBrush.node[0]);
@@ -83,7 +89,13 @@ const nav = document.getElementById('nav');
 
 burger.addEventListener('click', function () {
     nav.classList.toggle('menu-active');
-})
+});
+
+const chevronButton = document.getElementById('navLeftBox');
+chevron.addEventListener('click', function () {
+    chevronButton.classList.toggle('menu-activeLeft');
+});
+
 
 //advertising
 const firstPage = document.querySelector('.firstPage');

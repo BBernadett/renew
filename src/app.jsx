@@ -4,6 +4,7 @@ function App() {
     
     return <div id="sections">
     <SectionHeader></SectionHeader>
+    <SectionChevron></SectionChevron>
     <SectionNav></SectionNav>
     <SectionAdvertising></SectionAdvertising>
     <SectionIntro></SectionIntro>
@@ -12,28 +13,34 @@ function App() {
     </div>
 }
 
-
 function SectionHeader() {
     return <header >
-        <div>
-            <div>
-                <p id="user" className="headerTxt"></p>
-                <p className="headerTxt"> Rácz-Molnár András</p>
-            </div>
-            <div>
-                <p id="phNumber" className="headerTxt"></p>
-                <a href="tel:+36 30 200 4017" className="headerTxt">+36 30 200 4017</a>    
-            </div>
-            <div>
-                <p id="mail" className="headerTxt"></p>
-                <a href="mailto:racz1980@hotmail.fr" className="headerTxt">racz1980@hotmail.fr</a>     
-            </div>    
+        <div id="chevron">    
         </div>
-        
+        <div className="menuLeftItems">
+            <p id="user" className="navItems"></p>
+            <p className="navItems"> Rácz-Molnár András</p></div>
         <div id="burger">
         </div>
         
     </header>
+}
+
+function SectionChevron() {
+    return <div id="navLeftBox" className="navLeftBox">
+                <ul className="menuLeft">
+                    <li className="menuLeftItems">
+                            <p id="phNumber" className="navItems"></p>
+                        <a href="tel:+36 30 200 4017" className="navItems">+36 30 200 4017</a>    
+                    </li>
+                    <li  className="menuLeftItems">    
+                        <p id="mail" className="navItems"></p>
+                        <a href="mailto:racz1980@hotmail.fr" className="navItems">racz1980@hotmail.fr</a>                 
+                    </li>
+
+                </ul>
+            </div>
+        
 }
 
 function SectionNav() {
