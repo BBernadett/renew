@@ -266,10 +266,9 @@ function SectionIntro() {
                 "  ",
                 React.createElement(
                     "a",
-                    { href: "tel:+36 30 200 4017", style: { color: '#71c0e2', fontWeight: 'bold', textShadow: '0px 1px 2px #2e6f8b, 0px 2px 4px rgb(12, 30, 77), 0px 4px 8px #2e6f8b, 0px 8px 16px rgb(12, 30, 77)' } },
+                    { href: "tel:+36 30 200 4017", style: { color: '#71c0e2', fontWeight: 'bold', textShadow: '1px 1px 1px rgb(113, 192, 226), 1px 2px 1px #212227, 0px 8px 16px #212227' } },
                     "+3630 200 4017"
-                ),
-                " "
+                )
             )
         ),
         React.createElement(

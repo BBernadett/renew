@@ -104,7 +104,7 @@ function SectionIntro() {
 </div>
 <p className="introText">Vállalkozásunk mögött kiváló <span className="introPull"> szakemberek</span> állnak, <span className="introPull">20 éves </span> szakmai <span className="introPull">tapasztalattal </span>  a hátunk mögött,
 munkáinkra garanciát vállalva, 
-<span className="introPull"> kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, hideg-meleg burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span className="introPull"> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#71c0e2', fontWeight: 'bold', textShadow: '0px 1px 2px #2e6f8b, 0px 2px 4px rgb(12, 30, 77), 0px 4px 8px #2e6f8b, 0px 8px 16px rgb(12, 30, 77)' }} >+3630 200 4017</a> </p>
+<span className="introPull"> kedvező áron</span>  dolgozunk.<br /> Keressen meg minket szobafestés, tapétázás, hideg-meleg burkolás, vagy kisebb kőműves, villanyszerelési munkával kapcsolatban. <br /> <span className="introPull"> Várjuk hívását:</span>  <a href="tel:+36 30 200 4017" style={{color: '#71c0e2', fontWeight: 'bold', textShadow: '1px 1px 1px rgb(113, 192, 226), 1px 2px 1px #212227, 0px 8px 16px #212227' }} >+3630 200 4017</a></p>
 </div>
 <div>
                 <img src="./public/img/promoPic.jpg" alt="promo" className="promoPic" />
