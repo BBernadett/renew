@@ -115,7 +115,7 @@ let animate = 1;
 firstPage.addEventListener("animationend", function () {
     if (animate === 1) {
         reset_animation();
-        firstPage.innerHTML = '- Szobafestés <br/> - kőműves munkák <br /> - kisebb villanyszerelés <br />- vízszerelési munkák <br />- kisebb burkolások'
+        firstPage.innerHTML = '<i class="fa-solid fa-paint-roller"></i>' + '  Szobafestés <br/> <i class="fa-solid fa-paint-roller"></i> Kőműves munkák <br /> <i class="fa-solid fa-paint-roller"></i> Kisebb villanyszerelés <br /> <i class="fa-solid fa-paint-roller"></i> Vízszerelési munkák <br /> <i class="fa-solid fa-paint-roller"></i> Kisebb burkolások'
         fisrtPoint.classList.remove('showWhite');
         secondPoint.classList.add('showWhite');
         animate = 2;

@@ -16,7 +16,7 @@
 
 header {
     padding: 0.5rem;
-    background-color: #2b2b2b;
+    background-color: rgb(12, 30, 77);
     text-align: left;
     font-family: "Dia", Arial, serif;
     display: flex;
@@ -200,13 +200,13 @@ hr {
 
 h4 {
     padding: 2rem;
-    color: #212227;
+    color: rgb(12, 30, 77);
     font-family: "Dia", Arial, serif;
     line-height: 2.7rem;
 }
 
 span {
-    color: #71c0e2;
+    color: white;
     text-shadow: 0px 1px 2px #2e6f8b, 0px 2px 4px rgb(12, 30, 77), 0px 4px 8px #2e6f8b, 0px 8px 16px rgb(12, 30, 77);
     font-size: 1.2rem;
 }
@@ -261,14 +261,14 @@ span {
 }
 
 .intro {
-    background: linear-gradient(#2b2b2b, white);
+    background: linear-gradient(var(--main-bg), white);
     padding: 1rem;
     font-size: 1rem;
     display: block;
 }
 
 .introPull {
-    /*color: #0c1e4d;*/
+    color: #0c1e4d;
     font-size: 1.2rem;
 }
 
@@ -290,12 +290,11 @@ span {
     color: rgb(242, 246, 250);
     font-family: var(--font-sans);
     animation: showIn 6s forwards 2s;
-    text-align: center;
 }
 
 #promoText {
     font-family: var(--font-sans);
-    color: #212227;
+    color: #0c1e4d;
 }
 
 .introParags {
@@ -318,7 +317,7 @@ span {
 }
 
 .promoBox {
-    background: linear-gradient(0deg, rgb(43, 43, 43) 0%, rgb(248, 251, 252) 100%);
+    background: linear-gradient(0deg, rgb(12, 30, 77) 0%, rgb(250, 253, 254) 100%);
 }
 
 .promo {
@@ -349,20 +348,20 @@ span {
     width: 60%;
     display: block;
     margin: 1rem auto;
-    box-shadow: 0px 1px 2px #51c2f3, 0px 2px 4px #2b2b2b, 0px 4px 8px #51c2f3, 0px 8px 16px;
+    box-shadow: 0px 1px 2px white, 0px 2px 4px #0c1e4d, 0px 2px 4px #0c1e4d;
     border-radius: 0.15rem;
 }
 
 
 .promoTitle {
     padding: 0;
-    color: #71c0e2;
-    text-shadow: 1px 1px 1px #2e6f8b, 1px 2px 1px rgb(12, 30, 77), 1px 18px 6px #2e6f8b, 0px 8px 16px rgb(12, 30, 77);
+    text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 18px 6px rgb(16 16 16 / 40%), 1px 22px 10px rgb(16 16 16 / 20%), 1px 30px 60px rgb(16 16 16 / 40%);
+    color: white;
 }
 
 /*gallery*/
 .gallery {
-    background: #2c2c2c;
+    background: rgb(12, 30, 77);
 }
 
 .galleryBox {
